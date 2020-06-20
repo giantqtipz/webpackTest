@@ -1,8 +1,8 @@
 {
   "name": "day_19",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "**This project is missing some essential webpack files to build and a server to run properly!** **Fix the repo so it builds corrently and serves up our application!**",
+  "main": "./src/app.js",
   "scripts": {
     "start:dev": "npm run build & npm run start",
     "start": "node server/index.js",
@@ -23,5 +23,13 @@
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giantqtipz/webpackTest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giantqtipz/webpackTest/issues"
+  },
+  "homepage": "https://github.com/giantqtipz/webpackTest#readme"
 }
